@@ -9,81 +9,84 @@
     <link rel="stylesheet" href="./output.css">
 </head>
 <body class="bg-black">
-    <header>
-        <nav class="max-w-300 w-full h-20 m-auto p-5 flex flex-col items-center gap-5">
-            <div class="w-full flex items-center justify-between">
-                <div class="relative right-2 lg:right-5">
-                    <img class="w-full h-full" src="./img-muhammad/logo.png" alt="">
+    <header class="sticky top-0 z-50 w-full bg-black">
+            <nav class="sticky top-0 z-50 bg-black max-w-300 w-full h-20 m-auto p-5 flex flex-col items-center gap-5">
+                <div class="w-full flex items-center justify-between">
+                    <div class="relative right-2 lg:right-5">
+                        <img class="w-full h-full" src="./img-muhammad/logo.png" alt="">
+                    </div>
+                    <div class="flex overflow-x-auto hide-scrollbar tracking-wide whitespace-nowrap gap-5 lg:gap-10 text-[#e1e1e1] font-bold text-[10px] lg:text-[14px]">
+                        <a href="./home.html"><p class="text-[#2b7ced]">Home</p></a>
+                        <a href="./about-us.html"><p class="nav-link">About Us</p></a>
+                        <a href="./history.html"><p class="nav-link">History</p></a>
+                        <a href="./group.html"><p class="nav-link">Group</p></a>
+                        <a href="./legendary-models.html"><p class="nav-link">Legendary Models</p></a>
+                        <a href="./flagship-models.html"><p class="nav-link">Flagship Models</p></a>
+                        <a href="./specifications.html"><p class="nav-link">Specifications</p></a>
+                        <a href=""><p class="nav-link">Design & Interior</p></a>
+                        <a href=""><p class="nav-link">Technologies</p></a>
+                        <a href=""><p class="nav-link">Safety Systems</p></a>
+                        <a href=""><p class="nav-link">News</p></a>
+                        <a href=""><p class="nav-link">Electric Vehicles</p></a>
+                        <a href=""><p class="nav-link">Gallery</p></a>
+                        <a href=""><p class="nav-link">Contacts</p></a>
+                    </div>
+                    <a>
+                        <button class="px-2 py-2 cursor-pointer">
+                            <i class="fa-regular fa-moon text-white"></i>
+                        </button>
+                    </a>
                 </div>
-                <div class="flex overflow-x-auto hide-scrollbar tracking-wide whitespace-nowrap gap-5 lg:gap-10 text-[#e1e1e1] font-bold text-[10px] lg:text-[14px]">
-                    <a href=""><p class="text-[#2b7ced]">Home</p></a>
-                    <a href=""><p>About Us</p></a>
-                    <a href=""><p>History</p></a>
-                    <a href=""><p>Group</p></a>
-                    <a href=""><p>Legendary Models</p></a>
-                    <a href=""><p>Flagship Models</p></a>
-                    <a href=""><p>Specifications</p></a>
-                    <a href=""><p>Design & Interior</p></a>
-                    <a href=""><p>Technologies</p></a>
-                    <a href=""><p>Safety Systems</p></a>
-                    <a href=""><p>News</p></a>
-                    <a href=""><p>Electric Vehicles</p></a>
-                    <a href=""><p>Gallery</p></a>
-                    <a href=""><p>Contacts</p></a>
-                </div>
-                <a>
-                    <button class="px-2 py-2 cursor-pointer">
-                        <i class="fa-regular fa-moon text-white"></i>
-                    </button>
-                </a>
-            </div>
-        </nav>
+            </nav>
+        </header>
+        <main>
         <section class="w-full h-150 lg:h-175 bg-[linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('./img-muhammad/hero-section.png')] bg-cover bg-center flex items-center justify-center">
             <div class="max-w-300 h-[50%] p-5 flex flex-col items-center text-center gap-5 lg:gap-10">
                 <h1 class="text-[#e1e1e1] font-bold text-[30px] lg:text-[45px]">Unleash the Ultimate Driving Experience.</h1>
                 <p class="text-[#c4c4c4] font-bold text-[16px] lg:text-[20px] lg:w-[70%]">Discover a world where precision engineering meets unparalleled luxury. BMW LEGEND redefines automotive excellence with every curve and every roar.</p>
                 <div class="flex flex-col items-center lg:flex-row gap-5 font-bold ">
-                    <button class="px-10 py-2 bg-[#4d79d7] cursor-pointer">
+                    <button class="px-10 py-2 bg-[#4d79d7] cursor-pointer btn-primary ">
                         Learn More
                     </button>
-                    <button class="px-10 py-2 bg-black border border-solid border-[#4d79d7] text-[#2b7ced] cursor-pointer">
+                    <button class="px-10 py-2 bg-black border border-solid border-[#4d79d7] text-[#2b7ced] cursor-pointer btn-primary">
                         Explore Models
                     </button>
                 </div>
             </div>
         </section>
-    </header>
-    <main>
         <section class="w-full h-420 lg:h-185 mt-3 bg-[#15161b] flex justify-center items-center">
             <div class="max-w-300 w-full h-[80%] p-5 flex flex-col items-center gap-15">
                 <h1 class="text-[#e1e1e1] font-bold text-[30px] lg:text-[45px]">Explore BMW's World</h1>
                 <div class="w-full flex flex-col gap-10 lg:gap-0 lg:justify-between lg:flex-row">
-                    <div class="w-full lg:w-[31%] h-100 flex flex-col bg-black gap-5 lg:gap-0">
+                    <div class="w-full lg:w-[31%] h-100 flex flex-col bg-black gap-5 lg:gap-0
+                    transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_20px_60px_rgba(0,0,0,0.6)]">
                         <img src="./img-muhammad/card1.png" alt="">
                         <div class="flex flex-col gap-5 items-start p-5">
                             <h2 class="text-[#e1e1e1] font-bold text-[20px] lg:text-[24px]">Latest News & Updates</h2>
                             <p class="text-[#c4c4c4] text-[10px] lg:text-[14px]">Stay informed with the newest developments from BMW and the automotive industry.</p>
-                            <button class="px-7 py-2 bg-black border border-solid text-[10px] lg:text-[14px] border-[#4d79d7] text-[#2b7ced] cursor-pointer">
+                            <button class="btn-primary px-7 py-2 bg-black border border-solid text-[10px] lg:text-[14px] border-[#4d79d7] text-[#2b7ced] cursor-pointer">
                                 Discover More
                             </button>
                         </div>
                     </div>
-                    <div class="w-full lg:w-[31%] h-100 flex flex-col bg-black gap-5 lg:gap-0">
+                    <div class="w-full lg:w-[31%] h-100 flex flex-col bg-black gap-5 lg:gap-0
+                    transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_20px_60px_rgba(0,0,0,0.6)]">
                         <img src="./img-muhammad/card2.png" alt="">
                         <div class="flex flex-col gap-5 items-start p-5">
                             <h2 class="text-[#e1e1e1] font-bold text-[20px] lg:text-[24px]">The M5 Legend Continues</h2>
                             <p class="text-[#c4c4c4] text-[10px] lg:text-[14px]">Experience the power, luxury, and heritage of our iconic flagship model, the BMW M5.</p>
-                            <button class="px-7 py-2 bg-black border border-solid text-[10px] lg:text-[14px] border-[#4d79d7] text-[#2b7ced] cursor-pointer">
+                            <button class="btn-primary px-7 py-2 bg-black border border-solid text-[10px] lg:text-[14px] border-[#4d79d7] text-[#2b7ced] cursor-pointer">
                                 Discover More
                             </button>
                         </div>
                     </div>
-                    <div class="w-full lg:w-[31%] h-100 flex flex-col bg-black gap-5 lg:gap-0">
+                    <div class="w-full lg:w-[31%] h-100 flex flex-col bg-black gap-5 lg:gap-0
+                    transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_20px_60px_rgba(0,0,0,0.6)]">
                         <img src="./img-muhammad/card3.png" alt="">
                         <div class="flex flex-col gap-5 items-start p-5">
                             <h2 class="text-[#e1e1e1] font-bold text-[20px] lg:text-[24px]">Our Electric Future</h2>
                             <p class="text-[#c4c4c4] text-[10px] lg:text-[14px]">Dive into the world of sustainable mobility with BMW's innovative electric vehicle lineup.</p>
-                            <button class="px-7 py-2 bg-black border border-solid text-[10px] lg:text-[14px] border-[#4d79d7] text-[#2b7ced] cursor-pointer">
+                            <button class="btn-primary px-7 py-2 bg-black border border-solid text-[10px] lg:text-[14px] border-[#4d79d7] text-[#2b7ced] cursor-pointer">
                                 Discover More
                             </button>
                         </div>
@@ -94,42 +97,46 @@
         <section class="max-w-300 m-auto mt-30 flex flex-col items-center p-5 gap-15">
             <h1 class="text-[#e1e1e1] font-bold text-[30px] lg:text-[45px]">Explore BMW's World</h1>
             <div class="w-full flex flex-col gap-10 lg:gap-0 lg:justify-between lg:flex-row">
-                    <div class="w-full lg:w-[23%] h-100 flex flex-col gap-5 lg:gap-0">
+                    <div class="w-full lg:w-[23%] h-100 flex flex-col gap-5 lg:gap-0
+                    transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_20px_60px_rgba(0,0,0,0.6)]">
                         <img src="./img-muhammad/lineup1.png" alt="">
                         <div class="flex flex-col gap-5 items-start py-5">
                             <h2 class="text-[#e1e1e1] font-bold text-[20px] lg:text-[24px]">BMW M3 Sedan</h2>
                             <p class="text-[#c4c4c4] text-[10px] lg:text-[14px]">The essence of performance, evolved.</p>
-                            <button class="px-7 py-2 bg-black border border-solid text-[10px] lg:text-[14px] border-[#4d79d7] text-[#2b7ced] cursor-pointer">
+                            <button class="btn-primary px-7 py-2 bg-black border border-solid text-[10px] lg:text-[14px] border-[#4d79d7] text-[#2b7ced] cursor-pointer">
                                 View Details
                             </button>
                         </div>
                     </div>
-                    <div class="w-full lg:w-[23%] h-100 flex flex-col gap-5 lg:gap-0">
+                    <div class="w-full lg:w-[23%] h-100 flex flex-col gap-5 lg:gap-0
+                    transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_20px_60px_rgba(0,0,0,0.6)]">
                         <img src="./img-muhammad/lineup2.png" alt="">
                         <div class="flex flex-col gap-5 items-start py-5">
                             <h2 class="text-[#e1e1e1] font-bold text-[20px] lg:text-[24px]">BMW X5 SUV</h2>
                             <p class="text-[#c4c4c4] text-[10px] lg:text-[14px]">Unrivaled versatility, supreme comfort.</p>
-                            <button class="px-7 py-2 bg-black border border-solid text-[10px] lg:text-[14px] border-[#4d79d7] text-[#2b7ced] cursor-pointer">
+                            <button class="btn-primary px-7 py-2 bg-black border border-solid text-[10px] lg:text-[14px] border-[#4d79d7] text-[#2b7ced] cursor-pointer">
                                 View Details
                             </button>
                         </div>
                     </div>
-                    <div class="w-full lg:w-[23%] h-100 flex flex-col gap-5 lg:gap-0">
+                    <div class="w-full lg:w-[23%] h-100 flex flex-col gap-5 lg:gap-0
+                    transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_20px_60px_rgba(0,0,0,0.6)]">
                         <img src="./img-muhammad/lineup3.png" alt="">
                         <div class="flex flex-col gap-5 items-start py-5">
                             <h2 class="text-[#e1e1e1] font-bold text-[20px] lg:text-[24px]">BMW i8 Roadster</h2>
                             <p class="text-[#c4c4c4] text-[10px] lg:text-[14px]">Electrifying design, breathtaking performance.</p>
-                            <button class="px-7 py-2 bg-black border border-solid text-[10px] lg:text-[14px] border-[#4d79d7] text-[#2b7ced] cursor-pointer">
+                            <button class="btn-primary px-7 py-2 bg-black border border-solid text-[10px] lg:text-[14px] border-[#4d79d7] text-[#2b7ced] cursor-pointer">
                                 View Details
                             </button>
                         </div>
                     </div>
-                    <div class="w-full lg:w-[23%] h-100 flex flex-col gap-5 lg:gap-0">
+                    <div class="w-full lg:w-[23%] h-100 flex flex-col gap-5 lg:gap-0
+                    transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_20px_60px_rgba(0,0,0,0.6)]">
                         <img src="./img-muhammad/lineup4.png" alt="">
                         <div class="flex flex-col gap-5 items-start py-5">
                             <h2 class="text-[#e1e1e1] font-bold text-[20px] lg:text-[24px]">BMW 7 Series</h2>
                             <p class="text-[#c4c4c4] text-[10px] lg:text-[14px]">The pinnacle of luxury and innovation.</p>
-                            <button class="px-7 py-2 bg-black border border-solid text-[10px] lg:text-[14px] border-[#4d79d7] text-[#2b7ced] cursor-pointer">
+                            <button class="btn-primary px-7 py-2 bg-black border border-solid text-[10px] lg:text-[14px] border-[#4d79d7] text-[#2b7ced] cursor-pointer">
                                 View Details
                             </button>
                         </div>
@@ -141,32 +148,35 @@
             <div class="max-w-300 w-full h-[80%] p-5 flex flex-col items-center gap-15">
                 <h1 class="text-[#e1e1e1] font-bold text-[30px] lg:text-[45px] text-center">Innovations That Drive You</h1>
                 <div class="w-full flex flex-col gap-10 lg:gap-0 lg:justify-between lg:flex-row">
-                    <div class="w-full lg:w-[31%] h-70 flex flex-col items-center bg-black  lg:gap-0 border border-solid border-[#2b2b2b]">
+                    <div class="w-full lg:w-[31%] h-70 flex flex-col items-center bg-black  lg:gap-0 border border-solid border-[#2b2b2b]
+                    transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_20px_60px_rgba(0,0,0,0.6)]">
                         <img src="./img-muhammad/innovation1.png" alt="">
                         <div class="flex flex-col gap-5 items-center text-center p-5">
                             <h2 class="text-[#e1e1e1] font-bold text-[20px] lg:text-[24px]">BMW xDrive</h2>
                             <p class="text-[#c4c4c4] text-[10px] lg:text-[14px] w-[80%]">Intelligent all-wheel drive for superior traction and handling in all conditions.</p>
-                            <button class="px-7 py-2 bg-black border border-solid text-[10px] lg:text-[14px] border-[#4d79d7] text-[#2b7ced] cursor-pointer">
+                            <button class="btn-primary px-7 py-2 bg-black border border-solid text-[10px] lg:text-[14px] border-[#4d79d7] text-[#2b7ced] cursor-pointer">
                                 Learn More
                             </button>
                         </div>
                     </div>
-                    <div class="w-full lg:w-[31%] h-70 flex flex-col items-center bg-black  lg:gap-0 border border-solid border-[#2b2b2b]">
+                    <div class="w-full lg:w-[31%] h-70 flex flex-col items-center bg-black  lg:gap-0 border border-solid border-[#2b2b2b]
+                    transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_20px_60px_rgba(0,0,0,0.6)]">
                         <img src="./img-muhammad/innovation2.png" alt="">
                         <div class="flex flex-col gap-5 items-center text-center p-5">
                             <h2 class="text-[#e1e1e1] font-bold text-[20px] lg:text-[24px]">iDrive System</h2>
                             <p class="text-[#c4c4c4] text-[10px] lg:text-[14px] w-[90%]">Intuitive control and seamless connectivity at your fingertips with our advanced.</p>
-                            <button class="px-7 py-2 bg-black border border-solid text-[10px] lg:text-[14px] border-[#4d79d7] text-[#2b7ced] cursor-pointer">
+                            <button class="btn-primary px-7 py-2 bg-black border border-solid text-[10px] lg:text-[14px] border-[#4d79d7] text-[#2b7ced] cursor-pointer">
                                 Learn More
                             </button>
                         </div>
                     </div>
-                    <div class="w-full lg:w-[31%] h-70 flex flex-col items-center bg-black  lg:gap-0 border border-solid border-[#2b2b2b]">
+                    <div class="w-full lg:w-[31%] h-70 flex flex-col items-center bg-black  lg:gap-0 border border-solid border-[#2b2b2b]
+                    transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_20px_60px_rgba(0,0,0,0.6)]">
                         <img src="./img-muhammad/innovation3.png" alt="">
                         <div class="flex flex-col gap-5 items-center text-center p-5">
                             <h2 class="text-[#e1e1e1] font-bold text-[20px] lg:text-[24px]">ConnectedDrive</h2>
                             <p class="text-[#c4c4c4] text-[10px] lg:text-[14px] w-[90%]">Intelligent services and apps that integrate your vehicle with your digital life.</p>
-                            <button class="px-7 py-2 bg-black border border-solid text-[10px] lg:text-[14px] border-[#4d79d7] text-[#2b7ced] cursor-pointer">
+                            <button class="btn-primary px-7 py-2 bg-black border border-solid text-[10px] lg:text-[14px] border-[#4d79d7] text-[#2b7ced] cursor-pointer">
                                 Learn More
                             </button>
                         </div>
@@ -178,17 +188,29 @@
             <h1 class="text-[#e1e1e1] font-bold text-[30px] lg:text-[45px] text-center">Captivating Moments</h1>
             <div class="flex flex-col gap-5">
                 <div class="w-full flex flex-col gap-5 lg:gap-0 lg:flex-row lg:justify-between items-center">
-                    <img class="w-full lg:w-[32%]" src="./img-muhammad/Captivating1.png" alt="">
-                    <img class="w-full lg:w-[32%]" src="./img-muhammad/Captivating2.png" alt="">
-                    <img class="w-full lg:w-[32%]" src="./img-muhammad/Captivating3.png" alt="">
+                    <img class="w-full lg:w-[32%]
+                    transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_20px_60px_rgba(0,0,0,0.6)]
+                    " src="./img-muhammad/Captivating1.png" alt="">
+                    <img class="w-full lg:w-[32%]
+                    transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_20px_60px_rgba(0,0,0,0.6)]
+                    " src="./img-muhammad/Captivating2.png" alt="">
+                    <img class="w-full lg:w-[32%]
+                    transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_20px_60px_rgba(0,0,0,0.6)]
+                    " src="./img-muhammad/Captivating3.png" alt="">
                 </div>
                 <div class="w-full flex flex-col gap-5 lg:gap-0 lg:flex-row lg:justify-between items-center">
-                    <img class="w-full lg:w-[32%]" src="./img-muhammad/Captivating4.png" alt="">
-                    <img class="w-full lg:w-[32%]" src="./img-muhammad/Captivating5.png" alt="">
-                    <img class="w-full lg:w-[32%]" src="./img-muhammad/Captivating6.png" alt="">
+                    <img class="w-full lg:w-[32%]
+                    transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_20px_60px_rgba(0,0,0,0.6)]
+                    " src="./img-muhammad/Captivating4.png" alt="">
+                    <img class="w-full lg:w-[32%]
+                    transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_20px_60px_rgba(0,0,0,0.6)]
+                    " src="./img-muhammad/Captivating5.png" alt="">
+                    <img class="w-full lg:w-[32%]
+                    transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_20px_60px_rgba(0,0,0,0.6)]
+                    " src="./img-muhammad/Captivating6.png" alt="">
                 </div>
             </div>
-            <button class="px-10 py-3 text-[20px] font-bold bg-[#4d79d7] cursor-pointer">
+            <button class="btn-primary px-10 py-3 text-[20px] font-bold bg-[#4d79d7] cursor-pointer">
                 View Full Gallery
             </button>
         </section>

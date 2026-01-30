@@ -9,28 +9,28 @@
     <link rel="stylesheet" href="./output.css">
 </head>
 <body class="bg-black">
-    <header>
+    <header class="sticky top-0 z-50 w-full bg-black">
         <nav class="max-w-300 w-full h-20 m-auto p-5 flex flex-col items-center gap-5">
             <div class="w-full flex items-center justify-between">
                 <div class="relative right-2 lg:right-5">
                     <img class="w-full h-full" src="./img-muhammad/logo.png" alt="">
                 </div>
                 <div class="flex overflow-x-auto hide-scrollbar tracking-wide whitespace-nowrap gap-5 lg:gap-10 text-[#e1e1e1] font-bold text-[10px] lg:text-[14px]">
-                    <a href=""><p>Home</p></a>
-                    <a href=""><p>About Us</p></a>
-                    <a href=""><p>History</p></a>
-                    <a href=""><p>Group</p></a>
-                    <a href=""><p>Legendary Models</p></a>
-                    <a href=""><p class="text-[#2b7ced]">Flagship Models</p></a>
-                    <a href=""><p>Specifications</p></a>
-                    <a href=""><p>Design & Interior</p></a>
-                    <a href=""><p>Technologies</p></a>
-                    <a href=""><p>Safety Systems</p></a>
-                    <a href=""><p>News</p></a>
-                    <a href=""><p>Electric Vehicles</p></a>
-                    <a href=""><p>Gallery</p></a>
-                    <a href=""><p>Contacts</p></a>
-                </div>
+                        <a href="./home.html"><p class="nav-link">Home</p></a>
+                        <a href="./about-us.html"><p class="nav-link">About Us</p></a>
+                        <a href="./history.html"><p class="nav-link">History</p></a>
+                        <a href="./group.html"><p class="nav-link">Group</p></a>
+                        <a href="./legendary-models.html"><p class="nav-link">Legendary Models</p></a>
+                        <a href="./flagship-models.html"><p class="text-[#2b7ced] nav-link">Flagship Models</p></a>
+                        <a href="./specifications.html"><p class="nav-link">Specifications</p></a>
+                        <a href=""><p class="nav-link">Design & Interior</p></a>
+                        <a href=""><p class="nav-link">Technologies</p></a>
+                        <a href=""><p class="nav-link">Safety Systems</p></a>
+                        <a href=""><p class="nav-link">News</p></a>
+                        <a href=""><p class="nav-link">Electric Vehicles</p></a>
+                        <a href=""><p class="nav-link">Gallery</p></a>
+                        <a href=""><p class="nav-link">Contacts</p></a>
+                    </div>
                 <a>
                     <button class="px-2 py-2 cursor-pointer">
                         <i class="fa-regular fa-moon text-white"></i>
@@ -38,17 +38,17 @@
                 </a>
             </div>
         </nav>
+    </header>
+    <main>
         <section class="w-full h-150 lg:h-175 bg-[linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('./img-muhammad/flagship-hero-fon.png')] bg-cover bg-center flex items-center justify-center">
             <div class="max-w-300 h-[50%] p-5 flex flex-col items-center text-center gap-5 lg:gap-5">
                 <h1 class="text-[#e1e1e1] font-bold text-[30px] lg:text-[50px]">The All-New BMW M5</h1>
                 <p class="text-[#c4c4c4] font-bold text-[20px] lg:text-[24px]">Masterpiece of Carering. Symphony of Power.</p>
-                <button class="px-10 py-3 bg-[#4d79d7] cursor-pointer text-[18px]">
+                <button class="btn-primary px-10 py-3 bg-[#4d79d7] cursor-pointer text-[18px]">
                     Explore Specifications
                 </button>
             </div>
         </section>
-    </header>
-    <main>
         <div class="w-100% h-auto p-5">
             <div class="max-w-300 m-auto mt-10 items-center flex flex-col lg:flex-row gap-10 justify-center p-5 h-auto lg:pt-20 lg:pb-20">
                 <img src="./img-muhammad/flagship-legacy.png">
@@ -62,21 +62,21 @@
             <div class="max-w-300 w-full h-[80%] lg:h-[65%] p-5 flex flex-col items-center gap-15">
                 <h1 class="text-[#e1e1e1] font-bold text-[30px] lg:text-[45px] text-center">Unrivaled Performance</h1>
                 <div class="w-full flex flex-col gap-10 lg:gap-0 lg:justify-between lg:flex-row">
-                    <div class="w-full lg:w-[31%] h-50 flex flex-col items-start p-5 bg-black gap-5 border border-solid border-[#2b2b2b]">
+                    <div class="hover-lift w-full lg:w-[31%] h-50 flex flex-col items-start p-5 bg-black gap-5 border border-solid border-[#2b2b2b]">
                         <div class="flex items-center gap-5">
                             <img src="./img-muhammad/Performance1.png" alt="">
                             <h2 class="text-[#e1e1e1] font-bold text-[20px] lg:text-[24px] relative">TwinPower Turbo V8</h2>
                         </div>
                         <p class="text-[#c4c4c4] text-[14px] w-[90%]">At the heart of the M5 beats a potent 4.4-liter TwinPower Turbo V8 engine, delivering thrilling power and an unmistakable roar.</p>
                     </div>
-                    <div class="w-full lg:w-[31%] h-50 flex flex-col items-start p-5 bg-black gap-5 border border-solid border-[#2b2b2b]">
+                    <div class="hover-lift w-full lg:w-[31%] h-50 flex flex-col items-start p-5 bg-black gap-5 border border-solid border-[#2b2b2b]">
                         <div class="flex items-center gap-5">
                             <img src="./img-muhammad/Performance2.png" alt="">
                             <h2 class="text-[#e1e1e1] font-bold text-[20px] lg:text-[24px] relative">M xDrive System</h2>
                         </div>
                         <p class="text-[#c4c4c4] text-[14px] w-[90%]">The M xDrive intelligent all-wheel-drive system ensures optimal traction and agility, with an exclusive 2WD mode for pure driving exhilaration.</p>
                     </div>
-                    <div class="w-full lg:w-[31%] h-50 flex flex-col items-start p-5 bg-black gap-5 border border-solid border-[#2b2b2b]">
+                    <div class="hover-lift w-full lg:w-[31%] h-50 flex flex-col items-start p-5 bg-black gap-5 border border-solid border-[#2b2b2b]">
                         <div class="flex items-center gap-5">
                             <img src="./img-muhammad/Performance3.png" alt="">
                             <h2 class="text-[#e1e1e1] font-bold text-[20px] lg:text-[24px] relative">Dynamic Handling</h2>
@@ -161,21 +161,21 @@
             <h1 class="text-[#e1e1e1] font-bold text-[30px] lg:text-[40px] text-center">A Glimpse of Perfection</h1>
             <div class="flex flex-col gap-5">
                 <div class="w-full flex flex-col gap-5 lg:gap-0 lg:flex-row lg:justify-between items-center">
-                    <img class="w-full lg:w-[32%]" src="./img-muhammad/Glimpse1.png" alt="">
-                    <img class="w-full lg:w-[32%]" src="./img-muhammad/Glimpse2.png" alt="">
-                    <img class="w-full lg:w-[32%]" src="./img-muhammad/Glimpse3.png" alt="">
+                    <img class="hover-lift w-full lg:w-[32%]" src="./img-muhammad/Glimpse1.png" alt="">
+                    <img class="hover-lift w-full lg:w-[32%]" src="./img-muhammad/Glimpse2.png" alt="">
+                    <img class="hover-lift w-full lg:w-[32%]" src="./img-muhammad/Glimpse3.png" alt="">
                 </div>
                 <div class="w-full flex flex-col gap-5 lg:gap-0 lg:flex-row lg:justify-between items-center">
-                    <img class="w-full lg:w-[32%]" src="./img-muhammad/Glimpse4.png" alt="">
-                    <img class="w-full lg:w-[32%]" src="./img-muhammad/Glimpse5.png" alt="">
-                    <img class="w-full lg:w-[32%]" src="./img-muhammad/Glimpse6.png" alt="">
+                    <img class="hover-lift w-full lg:w-[32%]" src="./img-muhammad/Glimpse4.png" alt="">
+                    <img class="hover-lift w-full lg:w-[32%]" src="./img-muhammad/Glimpse5.png" alt="">
+                    <img class="hover-lift w-full lg:w-[32%]" src="./img-muhammad/Glimpse6.png" alt="">
                 </div>
             </div>
         </section>
         <section class="max-w-300 m-auto mt-20 lg:mt-30 p-5 gap-10 flex flex-col text-center items-center">
             <h1 class="text-[#F9FAFAFF] text-[30px] lg:text-[40px] font-bold">Ready to Experience the M5?</h1>
             <p class="text-[14px] lg:text-[18px] text-[#BEC0C6FF] lg:w-[60%]">Configure your ultimate driving machine, schedule a test drive, or download the full brochure to discover every detail of the BMW M5.</p>
-            <button class="px-10 py-3 bg-[#4d79d7] cursor-pointer text-[18px]">
+            <button class="btn-primary  px-10 py-3 bg-[#4d79d7] cursor-pointer text-[18px]">
                 Configure Your M5
             </button>
         </section>
@@ -183,14 +183,14 @@
             <div class="max-w-300 w-full m-auto p-5 flex flex-col gap-10 items-center lg:pt-20 lg:pb-20 text-center lg:text-start">
                     <h1 class="text-[30px] lg:text-[40px] font-bold text-white">Accessories & Variants</h1>
                     <div class="w-full mt-10 flex flex-col lg:flex-row gap-5 justify-between lg:gap-0">
-                        <div class="flex flex-col w-full items-start lg:w-[48%] bg-black text-white border border-solid border-[#2b2b2b]">
+                        <div class="hover-lift flex flex-col w-full items-start lg:w-[48%] bg-black text-white border border-solid border-[#2b2b2b]">
                             <img src="./img-muhammad/Accessories1.png">
                             <div class="flex flex-col gap-3 p-7">
                                 <h1 class="text-xl font-bold">M Performance Package</h1>
                                 <p class="text-gray-400">Enhance your M5 with exclusive carbon fiber components, sport exhaust system, and performance optimizations for an even more exhilarating drive.</p>
                             </div>
                         </div>
-                        <div class="flex flex-col w-full items-start lg:w-[48%] bg-black text-white border border-solid border-[#2b2b2b]">
+                        <div class="hover-lift flex flex-col w-full items-start lg:w-[48%] bg-black text-white border border-solid border-[#2b2b2b]">
                             <img src="./img-muhammad/Accessories2.png">
                             <div class="flex flex-col gap-3 p-7">
                                 <h1 class="text-xl font-bold">BMW M5 Competition</h1>
@@ -199,14 +199,14 @@
                         </div>
                     </div>
                     <div class="w-full relative bottom-5 lg:bottom-0 flex flex-col lg:flex-row gap-5 justify-between lg:gap-0">
-                        <div class="flex flex-col w-full items-start lg:w-[48%] bg-black text-white border border-solid border-[#2b2b2b]">
+                        <div class="hover-lift flex flex-col w-full items-start lg:w-[48%] bg-black text-white border border-solid border-[#2b2b2b]">
                             <img src="./img-muhammad/Accessories3.png">
                             <div class="flex flex-col gap-3 p-7">
                                 <h1 class="text-xl font-bold">Exclusive Wheel Designs</h1>
                                 <p class="text-gray-400">Personalize your M5 with a range of stunning M light alloy wheel designs, available in various finishes and sizes.</p>
                             </div>
                         </div>
-                        <div class="flex flex-col w-full items-start lg:w-[48%] bg-black text-white border border-solid border-[#2b2b2b]">
+                        <div class="hover-lift flex flex-col w-full items-start lg:w-[48%] bg-black text-white border border-solid border-[#2b2b2b]">
                             <img src="./img-muhammad/Accessories4.png">
                             <div class="flex flex-col gap-3 p-7">
                                 <h1 class="text-xl font-bold">M Carbon Ceramic Brakes</h1>
