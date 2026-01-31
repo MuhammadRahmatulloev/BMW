@@ -40,10 +40,59 @@
         </nav>
     </header>
     <main>
-        <section class="max-w-300 m-auto mt-20 lg:mt-30 p-5 gap-10 flex flex-col text-center items-center">
+        <section class="max-w-300 m-auto mt-20 p-5 gap-10 flex flex-col text-center items-center">
             <h1 class="text-[#F9FAFAFF] text-[30px] lg:text-[45px] font-bold">Contact BMW LEGEND</h1>
             <p class="text-[14px] lg:text-[18px] text-[#BEC0C6FF] lg:w-[60%]">We are here to assist you with inquiries about our legendary models, innovative technologies, and corporate affairs. Please reach out through the channels below.</p>
-        </section>  
+        </section>
+        <section class="w-full h-230 lg:h-210 flex justify-center items-center">
+            <div class="max-w-300 w-full m-auto mt-30 gap-15 p-5 flex flex-col items-start text-center">
+                <div class="w-full lg:justify-between h-170 lg:h-110 border-2 border-solid border-[#3f3f3f] lg:text-start p-5 flex flex-col gap-10 lg:gap-60 lg:flex-row">
+                    <div class="mt-5 lg:mt-0 flex flex-col gap-10 w-full lg:w-[30%]">
+                        <h2 class="text-[30px] text-[#F9FAFAFF] font-bold">Our Headquarters</h2>
+                        <div class="flex flex-col gap-1">
+                            <h2 class="text-[20px] text-[#F9FAFAFF] font-bold">Address</h2>
+                            <h2 class="text-[18px] text-[#BEC0C6FF] font-bold">BMW AG Petuelring 130 80788 Munich, Germany</h2>
+                        </div>
+                        <div class="flex flex-col gap-1">
+                            <h2 class="text-[20px] text-[#F9FAFAFF] font-bold">Phone</h2>
+                            <h2 class="text-[18px] text-[#BEC0C6FF] font-bold">+49 89 1250-16000</h2>
+                        </div>
+                        <div class="flex flex-col gap-1">
+                            <h2 class="text-[20px] text-[#F9FAFAFF] font-bold">Email</h2>
+                            <h2 class="text-[18px] text-[#6699FFFF] cursor-pointer">info@bmwlegend.com</h2>
+                        </div>
+                    </div>
+                    <div class="w-full lg:w-[50%] lg:h-[90%]">
+                        <img class="lg:h-full lg:w-full lg:mt-4" src="./img-muhammad/map.png" alt="">
+                    </div>
+                </div>
+        </section>
+            <section class="max-w-300 w-full m-auto mt-30 p-5 flex flex-col gap-10 lg:gap-0 lg:flex-row lg:justify-between lg:items-center">
+                <div class="w-full  flex flex-col gap-10">
+                    <h1 class="text-[#F9FAFAFF] font-bold text-[30px] lg:text-[40px] text-center">Send Us a Message</h1>
+                    <div class="flex flex-col items-center gap-5 lg:flex-row lg:justify-between">
+                        <form class="flex flex-col w-full lg:w-[45%] items-start gap-3 text-[#ffffffc9]">
+                            <label class="text-[18px] text-[#BEC0C6FF] font-bold" for="inp1">Your Name</label>
+                            <input id="inp1" class="w-full px-5 py-3 border border-solid border-[#353940FF]" type="text" placeholder="John Doe">
+                        </form>
+                        <form class="flex flex-col w-full lg:w-[45%] items-start gap-3 text-[#ffffffc9]">
+                            <label class="text-[18px] text-[#BEC0C6FF] font-bold" for="inp2">Your Email</label>
+                            <input id="inp2" class="w-full px-5 py-3 border border-solid border-[#353940FF]" type="text" placeholder="john.doe@example.com">
+                        </form>
+                    </div>
+                    <form class="flex flex-col items-center lg:items-start gap-3 text-[#ffffffc9]">
+                        <label class="text-[18px] text-[#BEC0C6FF] font-bold self-start " for="inp3">Subject</label>
+                        <input id="inp3" class="px-5 w-full py-3 border border-solid border-[#353940FF]" type="text" placeholder="Inquiry about...">
+                    </form>
+                    <form class="flex flex-col items-center lg:items-start gap-3 text-[#ffffffc9]">
+                        <label class="text-[18px] text-[#BEC0C6FF] font-bold self-start " for="inp4">Message</label>
+                        <textarea name="" id="inp4" class="px-5 w-full py-3 border border-solid border-[#353940FF] h-50" placeholder="How can we help you today?"></textarea>
+                    </form>
+                    <button class="px-10 py-3 self-center bg-[#4d79d7] cursor-pointer btn-primary ">
+                        Send Message
+                    </button>
+                </div>
+            </section>
     </main>
 </body>
 </html>
